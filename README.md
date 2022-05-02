@@ -1,3 +1,14 @@
+#Quizzical Trivia App
+
+## Description
+1. Fetch questions from API(https://opentdb.com/api.php)
+2. Check if the user's answers are correct
+3. Show the results (in different color)
+
+## Demo
+
+
+-----
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
