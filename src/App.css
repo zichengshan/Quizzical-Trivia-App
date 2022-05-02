@@ -5,49 +5,115 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #293264;
-  background-color: cornsilk;
+  background-color: #F5F7FB;
+}
+
+.quiz {
+  max-width: 900px;
+  min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.quiz_results {
+  display: flex;
+  align-items: center;
+}
+
+
+.quiz_results_text{
+  margin-left: auto;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.start {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.start_title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.start_body{
+  font-size: 1.5rem;
 }
 
 button {
-  grid-column: 1 / -1;
-  font-weight: bold;
   font-size: 1.1rem;
   letter-spacing: 1px;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  background: purple;
+  padding:10px 40px;
+  background: #4D5B9E;
   color: white;
-  width: 150px;
 
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
 
   cursor: pointer;
+}
 
+.start_btn {
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+.quiz_checkAnswer_btn {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quiz_restart_btn{
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.start_btn, .quiz_checkAnswer_btn, .quiz_restart_btn {
   transform: scale(1);
   transition: color 500ms;
   transition: transform 250ms;
 }
 
-button:hover,
-botton:focus {
+.start_btn:hover, .quiz_checkAnswer_btn:hover, .quiz_restart_btn:hover,
+.start_btn:focus, .quiz_checkAnswer_btn:focus, .quiz_restart_btn:focus{
   color: white;
   transform: scale(1.1);
 }
 
-button:active {
-  background-color: #3e8e41;
+.start_btn:active, .quiz_checkAnswer_btn:active, .quiz_restart_btn:active {
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
 
-.start {
-  text-align: center;
+.general_btn{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 7px 12px;
+  background-color: #F5F7FB;
+  color: #293264;
+  border: 2px solid #293264;
+}
+.selected_btn {
+  background-color: #D6DBF5;
 }
 
-.single-answer {
-  margin-right: 10px;
+.wrong_btn, .correct_btn{
+  border: none;
+}
+
+.wrong_btn {
+  background-color: #F8BCBC;
+  opacity: .6;
+}
+
+.correct_btn {
+  background-color: #94D7A2;
 }
 

@@ -12,8 +12,11 @@ function App() {
     }
 
   return (
-      // begin ? <Quiz /> : <Start handleClick={startQuiz}/>
-      <Quiz />
+      <div>
+          {!begin && <Start handleClick={startQuiz}/>}
+          {begin && <Quiz />}
+      </div>
+
   )
 }
 
