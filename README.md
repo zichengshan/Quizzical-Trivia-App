@@ -1,4 +1,4 @@
-#Quizzical Trivia App
+# Quizzical Trivia App
 
 ## Description
 1. Fetch questions from API(https://opentdb.com/api.php)
@@ -6,7 +6,9 @@
 3. Show the results (in different color)
 
 ## Demo
+This app has been deployed: https://main.d1a1obo0q0yys8.amplifyapp.com/ 
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/61951792/166186344-7bdf1192-54eb-4fb2-9ab0-1b590541a2d5.gif)
 
 -----
 # Getting Started with Create React App
